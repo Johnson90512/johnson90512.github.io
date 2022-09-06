@@ -4,7 +4,7 @@ title: Hack The Box - Legacy
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*5M6-ofIj4NRY49YkIQC38w.png)
 
-Lame is a retired machine that is easy in difficulty and is a Windows OS. I’ll be using a virtual machine and a copy of Parrot OS, which can be downloaded from [here](https://parrotlinux.org/).
+Legacy is a retired machine that is easy in difficulty and is a Windows OS. I’ll be using a virtual machine and a copy of Parrot OS, which can be downloaded from [here](https://parrotlinux.org/).
 
 ### Enumeration
 
@@ -25,4 +25,4 @@ _We then need to see what targets are available so we type show targets, and it 
 
 ![](https://cdn-images-1.medium.com/max/800/1*yEHrmaz-GeuwmX2W-blmqQ.png)
 
-As you can see from the screenshot using this options gave us a meterpreter session, when running getuid the command returns NT System. We should then be able to locate the user.txt as well as the root.txt files in C:\documents and settings\john\user.txt and C:\documents and settings\administrator\root.txt. Once the file has been located, typing `type user.txt` and `type root.txt` will give you the flags.
+As you can see from the screenshot using this options gave us a meterpreter session, when running getuid the command returns NT System. We should then be able to locate the user.txt as well as the root.txt files in `C:\documents and settings\john\user.txt` and `C:\documents and settings\administrator\root.txt`. Once the file has been located, typing `type user.txt` and `type root.txt` will give you the flags.
