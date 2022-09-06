@@ -3,9 +3,9 @@ layout: post
 title: Try Hack Me - Blue
 ---
 
-Blue is a room in the Free tier of TryHackMe, that is listed as easy and attemps to show a someone the process and tools necessary to exploit a machine.
-
 ![](https://miro.medium.com/max/700/1*G2NU4ORd8U2ErU4gQWjHrg.png)
+
+Blue is a room in the Free tier of TryHackMe, that is listed as easy and attemps to show a someone the process and tools necessary to exploit a machine.
 
 # Task 1 — Recon
 
