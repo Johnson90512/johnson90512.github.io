@@ -13,7 +13,7 @@ Deploy the server and read the intro explaining the what the room is and who it 
 
 Step 1 is to scan the machine, I used the command _nmap -sS -sV --script vuln -A <machine IP>_
 
-![[Pasted image 20220906183716.png]]
+<img src="{{ site.baseurl }}/images/Pasted image 20220906183716.png"/>
 
 ![[Pasted image 20220906183723.png]]
 
