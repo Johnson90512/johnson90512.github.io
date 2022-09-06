@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hack The Box -Lame
+title: Hack The Box - Lame
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*7knl1H9uw9G0iFOzSO3k-w.png)
 

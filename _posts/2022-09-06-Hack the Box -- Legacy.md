@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Hack The Box - Legacy
+---
 ![](https://cdn-images-1.medium.com/max/800/1*5M6-ofIj4NRY49YkIQC38w.png)
 
 Lame is a retired machine that is easy in difficulty and is a Windows OS. I’ll be using a virtual machine and a copy of Parrot OS, which can be downloaded from [here](https://parrotlinux.org/).
