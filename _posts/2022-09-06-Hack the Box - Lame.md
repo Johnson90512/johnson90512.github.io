@@ -30,7 +30,7 @@ That leaves Samba 3.0.20, which when searched in Searchsploit has several exploi
 
 ![](https://cdn-images-1.medium.com/max/800/1*8ysO_kq1C4YLRT1BKNXKPw.png)
 
-Once you have Metasploit opened, and the correct exploit selected set the rhosts option by typing **_set rhosts 10.10.10.3_**_._ You also need to set the lhost so the exploit knows where to send the reverse shell. lhost should be set to your local IP address of the attacking machine_._ Then type in exploit to run the command. The commands and output are below.
+Once you have Metasploit opened, and the correct exploit selected set the rhosts option by typing `set rhosts 10.10.10.3`. You also need to set the lhost so the exploit knows where to send the reverse shell. lhost should be set to your local IP address of the attacking machine_._ Then type in exploit to run the command. The commands and output are below.
 
 ![](https://cdn-images-1.medium.com/max/800/1*wuDRXDLkv4yJ3sXUdC3Nrw.png)
 
@@ -38,4 +38,4 @@ Once this is run it sits on what appears to be a blank screen, but if you try to
 
 ![](https://cdn-images-1.medium.com/max/800/1*N9GtiQMyT-UTJnma51wmYw.png)
 
-After checking which user the shell is running as with a _whoami_ it shows that we are running as root and sitting at the root of the server. From here I just used the find command and pipe it to grep since I know that the files we are looking for a root.txt and user.txt. The commands I used were **_find user.txt | grep user.txt_** and **_find root.txt | grep root.txt_** this successfully shows the location of both files. All that is left to do is cat the file to read the contents.
+After checking which user the shell is running as with a `whoami` it shows that we are running as root and sitting at the root of the server. From here I just used the find command and pipe it to grep since I know that the files we are looking for a root.txt and user.txt. The commands I used were `find user.txt | grep user.txt` and `find root.txt | grep root.txt` this successfully shows the location of both files. All that is left to do is cat the file to read the contents.
